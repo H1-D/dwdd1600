@@ -1,0 +1,138 @@
+body {
+    font-family: "Cormorant Infant", serif;
+    background-color: #f9f5f2;
+}
+/*header stuff here*/
+header {
+    font-family: "Amarante", serif;
+    background-color: #231c11;
+    padding:1rem 10px;
+    font-weight: 700;
+    
+ }
+ header span {
+    color: #f9f5f2;
+    font-size: 4rem;
+    padding: 1rem 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+ }
+
+ /*navgation stuff here*/
+ nav{
+    background-color: #908660;}
+    nav ul {
+        margin: 0;
+        padding: 0 10px;
+        list-style-type: none;
+        display: flex;  
+    }
+    nav a {
+        display: block;
+        padding: .83rem .83rem;
+        font-family: "Amarante", serif;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color:#f9f5f2;
+    }
+
+    nav li.active a {
+        background-color: #bc6c25;
+        color: #643420;
+    }
+    nav li a:hover {
+        color: #4d4b30;
+    }
+
+    /*main stuff here*/
+    main {
+        padding: 1rem 10px;
+    }
+    main h1{
+        font-family: "Amarante", serif;
+        color: #bc6c25;
+    }
+    main h2{
+        font-family: "Amarante", serif;
+        color: #643420;
+        margin-bottom: .2rem;
+    }
+    h3{
+        font-family: "Cormorant Infant", serif;
+        color: #bc6c25;
+        margin-bottom: .2rem;    
+    }
+    main p {
+        margin: 0;
+        color: #231c11;
+    }
+    main ol {
+        padding: .5rem 30px;
+        border-radius: 20px ;
+        border-color: #bc6c25;
+        border-style:solid;
+        border-width: 2px;
+    }
+    main dl{
+        padding: .5rem 30px;
+        border-radius: 20px ;
+        border-color: #e0ccba;
+        border-style:solid;
+        border-width: 2px;
+        background-color: #e0ccba;
+    }
+    main dl dt{
+      font-family: "Amarante", serif;
+      color: #908660;
+      font-weight: 700;  
+      margin-top: 1rem;
+    }
+
+    main dl dd{
+        color: #643420;
+        font-size: .9rem;
+        margin-left: 20px;
+    }
+
+    main ul {
+        list-style-type: circle;
+    }
+    main ul li {
+        line-height: 125%;
+        margin-bottom: .5rem;
+        font-size: .9rem;
+    }
+    main strong {
+      font-weight: 700;  
+      color:#bc6c25;
+    }
+    main em{
+        font-weight: 300;
+    }
+    main address{
+        font-family: "Cormorant Infant", serif;
+        font-style: normal;
+        background-color: #e0ccba;
+        padding: .5rem;
+        border-radius: 20px ;
+        width: 200px;
+    }
+    main a {
+        color: #643420;
+    }
+    main a :hover{
+        color:#bc6c25
+    }
+    /*footer stuff*/
+    footer {
+        background-color: #e0ccba; 
+        text-align: center;
+        padding: 1rem;
+        font-size: .8rem;
+        color: #231c11;
+    }
+    footer p {
+        margin: 0;
+        letter-spacing: 3px;
+    }
