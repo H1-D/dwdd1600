@@ -3,6 +3,12 @@ body {
     background-color: #f9f5f2;
     margin: 0;
 }
+#logo {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+  height: 60px;
+}
 
 /*header stuff here*/
 header {
