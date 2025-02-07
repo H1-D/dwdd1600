@@ -69,16 +69,18 @@ header {
     .content-box {
         padding: 1rem 2.5rem 2.5rem;
         border-radius: 1.5rem;
-        border-color: #bc6c25;
+        border-color: #f0e9e2;
         border-style:solid;
-        border-width: 2px;
+        border-width: 1px;
+        box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
+        background-color: white;
     }
 
     main p {
         margin: 0;
         color: #231c11;
     }
-    main dl{
+    main dl {
         padding: .5rem 30px;
         border-radius: 20px ;
         border-color: #e0ccba;
@@ -86,14 +88,14 @@ header {
         border-width: 2px;
         background-color: #e0ccba;
     }
-    main dl dt{
+    main dl dt {
       font-family: "Amarante", serif;
       color: #908660;
       font-weight: 700;  
       margin-top: 1rem;
     }
 
-    main dl dd{
+    main dl dd {
         color: #643420;
         font-size: .9rem;
         margin-left: 20px;
