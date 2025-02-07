@@ -8,6 +8,7 @@ body {
   float: left;
   height: 50px;
   width: auto;
+  display: inline;
 }
 
 /*header stuff here*/
