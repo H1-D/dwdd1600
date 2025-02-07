@@ -4,10 +4,10 @@ body {
     margin: 0;
 }
 #logo {
-  display: inline-block;
+  margin: 15px; 
   float: left;
-  height: 4rem;
-  padding: 2rem;
+  height: 60px;
+  width: auto;
 }
 
 /*header stuff here*/
