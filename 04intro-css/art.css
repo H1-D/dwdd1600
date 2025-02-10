@@ -2,13 +2,12 @@ body {
     font-family: "Cormorant Infant", serif;
     background-color: #f9f5f2;
     margin: 0;
+    font-size: 1.25rem;
 }
 #logo {
-  margin: 15px; 
-  float: left;
-  height: 50px;
-  width: auto;
-  display: inline-block;
+    margin-right: 1rem;
+    height: 50px;
+    width: auto;
 }
 
 /*header stuff here*/
@@ -16,6 +15,7 @@ header {
     font-family: "Amarante", serif;
     background-color: #231c11;
     padding: 2rem;
+    line-height: 1;
     font-weight: 700;    
  }
 
@@ -94,17 +94,34 @@ h3 {
     border-width: 1px;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
     background-color: white;
+    max-width: 1024px;
+}
+
+.content-row {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.content-header {
+    margin-bottom:16px;
+}
+
+.mb-25 {
+    margin-bottom: .25rem;
+}
+
+.mb-5 {
+    margin-bottom: .5rem;
 }
 
 main p {
     margin: 0;
     color: #231c11;
+    line-height: 1.5;
 }
 
 main dl {
     padding: .5rem 30px;
-
-    
 }
 
 main dl dt {
@@ -112,6 +129,88 @@ main dl dt {
   color: #bc6c25;
   font-weight: 700;  
   margin-top: 1rem;
+}
+
+main dl dd {
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+main strong {
+  font-weight: 700;  
+  color:#bc6c25;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address{
+    font-family: "Cormorant Infant", serif;
+    font-style: normal;
+    background-color: #e0ccba;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
+    width: 200px;
+}
+
+main a {
+    color: #643420;
+}
+
+main a :hover{
+    color:#bc6c25
+}
+
+/*images go here*/
+figure.portrait {
+    margin-right: 0px;
+}
+
+figure.portrait img {
+    border-radius: .5rem;
+}
+
+figure.portrait figcaption {
+    font-size: 1rem;
+    text-align: center;    
+}
+
+div.artgallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.artgallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.artgallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #643420;
+}
+
+/*footer stuff*/
+footer {
+    background-color: #e0ccba; 
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #231c11;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
 }
 
 main dl dd {
