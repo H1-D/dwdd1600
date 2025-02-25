@@ -1,0 +1,261 @@
+body {
+    font-family: "Cormorant Infant", serif;
+    background-color: #f9f5f2;
+    margin: 0;
+    font-size: 1.25rem;
+}
+#logo {
+    margin-right: 1rem;
+    height: 50px;
+    width: auto;
+}
+
+/*header stuff here*/
+header {
+    font-family: "Amarante", serif;
+    background-color: #231c11;
+    padding: 2rem;
+    line-height: 1;
+    font-weight: 700;    
+ }
+
+header span {
+    color: #f9f5f2;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+/*navgation stuff here*/
+nav {
+    background-color: #908660;
+    padding: 0 2rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;  
+}
+
+nav a {
+    display: block;
+    padding: .83rem .83rem;
+    font-family: "Amarante", serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:#f9f5f2;
+}
+
+nav li.active a {
+    background-color: #bc6c25;
+    color: #643420;
+}
+
+nav li a:hover {
+    color: #4d4b30;
+}
+
+/*main stuff here*/
+main {
+    padding: 0 2rem;
+}
+
+h1 {
+    font-family: "Amarante", serif;
+    color: #bc6c25;
+    margin: 1.5rem 0; 
+}
+
+h2 {
+    font-family: "Amarante", serif;
+    color: #643420;
+    margin: 1.25rem 0 .25rem;
+}
+
+h3 {
+    font-family: "Cormorant Infant", serif;
+    color: #bc6c25;
+    margin-top: .5rem;
+    margin-bottom: .25rem;   
+}
+
+.round {
+     border-radius: 50%;    
+}
+
+.content-box {
+    padding: 1rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+    border-color: #f0e9e2;
+    border-style:solid;
+    border-width: 1px;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
+    background-color: white;
+    max-width: 1024px;
+}
+
+.content-row {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.content-header {
+    margin-bottom:16px;
+}
+
+.mb-25 {
+    margin-bottom: .25rem;
+}
+
+.mb-5 {
+    margin-bottom: .5rem;
+}
+
+main p {
+    margin: 0;
+    color: #231c11;
+    line-height: 1.5;
+}
+
+main dl {
+    padding: .5rem 30px;
+}
+
+main dl dt {
+  font-family: "Amarante", serif;
+  color: #bc6c25;
+  font-weight: 700;  
+  margin-top: 1rem;
+}
+
+main dl dd {
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+main strong {
+  font-weight: 700;  
+  color:#bc6c25;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address{
+    font-family: "Cormorant Infant", serif;
+    font-style: normal;
+    background-color: #e0ccba;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
+    width: 200px;
+}
+
+main a {
+    color: #643420;
+}
+
+main a :hover{
+    color:#bc6c25
+}
+
+/*images go here*/
+figure.portrait {
+    margin-right: 0px;
+}
+
+figure.portrait img {
+    border-radius: .5rem;
+}
+
+figure.portrait figcaption {
+    font-size: 1rem;
+    text-align: center;    
+}
+
+div.artgallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.artgallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.artgallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #643420;
+}
+
+/*footer stuff*/
+footer {
+    background-color: #e0ccba; 
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #231c11;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.myForm fieldset {
+    border: 1px solid #bc6c25;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color:#bc6c25;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text] , .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    padding: 1rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+    border-color: #f0e9e2;
+    border-style:solid;
+    border-width: 1px;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
+    background-color: white;
+    max-width: 1024px;
+}
+
+.myForm textarea {
+    height: 3rem;
+}
+
+.myForm :required {
+    background-color: rgba(188,108,37,0.2);
+    border:none
+}
+.myForm [type=submit] {
+    background-color:#bc6c25;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    color: #ffffff;
+    margin: 1rem 0 1rem 1vw;
+}
