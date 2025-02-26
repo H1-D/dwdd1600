@@ -217,15 +217,21 @@ footer p {
     border: 1px solid #bc6c25;
     border-radius: 1.5rem;
     margin-bottom: 1rem;
+
+    
+
+
 }
 
 .myForm legend {
+
     color:#bc6c25;
     font-size: .8rem;
 }
 
 .myForm label {
     margin: .5rem;
+
 }
 
 .myForm label, .myForm select, .myForm [type=text] , .myForm [type=tel], .myForm textarea {
@@ -238,24 +244,34 @@ footer p {
     border-color: #f0e9e2;
     border-style:solid;
     border-width: 1px;
+    font-family: "Cormorant Infant", serif;
     box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
     background-color: white;
-    max-width: 1024px;
+    max-width: 200px;
 }
+
 
 .myForm textarea {
     height: 3rem;
+
 }
 
 .myForm :required {
+    display: block;
     background-color: rgba(188,108,37,0.2);
     border:none
+    
+
 }
 .myForm [type=submit] {
+    font-family: "Cormorant Infant", serif;
     background-color:#bc6c25;
     border: none;
     padding: 1rem;
     border-radius: 1.5rem;
     color: #ffffff;
-    margin: 1rem 0 1rem 1vw;
+    margin: 1rem 0 2rem 2vw;
+}
+:placeholder-shown{
+    font-family: "Cormorant Infant", serif;
 }
