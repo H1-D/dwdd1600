@@ -236,10 +236,15 @@ footer p {
 
 .myForm label, .myForm select, .myForm [type=text] , .myForm [type=tel], .myForm textarea {
     display: block;
+  
+}
+.myForm [type=text], .myForm [type=tel],.myForm [type=email]{
+    border-radius: .25rem; 
+    padding: .25rem; 
 }
 
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
-    padding: 1rem 2.5rem 2.5rem;
+.myForm select, .myForm textarea {
+    padding: 1rem 3.5rem 2.5rem;
     border-radius: 1.5rem;
     border-color: #f0e9e2;
     border-style:solid;
