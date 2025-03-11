@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heidi Hassler">
+    <meta name="description" content="The Art Vault">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="art.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="subscription.css">
+    <title>The Art Vault: Artists</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <img id="logo" src="artvault.png" alt="art vault">
+        <span>The Art Vault</span>
+    </header>
+   
+    <!--start the page navagation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Artists</a></li>
+            <li><a href="time.html">Timeline</a></li>
+            <li><a href="gallery.html">Timeline</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li class="active"><a href="subscription.html">Subscribe</a></li> 
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Subscribe For our Newsletters!</h1>
+      <form method="get" class="myForm" action="thanks.html">
+
+    <fieldset>
+        <legend>Customer Information</legend>
+     <label>First Name*<input type="'text" name="fname" required></label>
+     <label>Last Name*<input type="'text" name="lname" required></label>
+     <label>Email*<input type="email" name="email" required></label>
+     <label>Cell Number*<input type="'tel" name="phone" required placeholder="987-555-1234"></label>
+     <label>Address*<input type="address" name="address" required></label>
+     </fieldset>
+
+     <fieldset>
+        <legend>Delivery Options</legend>
+       <label> <input type="radio" name="method" value="mailbox">Mailbox</label>
+       <label> <input type="radio" name="method" value="email">Email</label>
+       <label> <input type="radio" name="method" value="text">Text</label>
+     </fieldset>
+
+     <fieldset>
+        <legend> Email Options</legend>
+        <label><input type="checkbox" name="week" value="chosen"> Weekly </label>
+        <label><input type="checkbox" name="month" value="chosen"> Monthly </label>
+        <label><input type="checkbox" name="year" value="chosen"> Yearly </label>
+
+
+        <label>Preferred Delivery Time
+        <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">Between 7:00am and 11:00am</option>
+            <option value="noon">Between 11:00am and 2:00pm</option>
+            <option value="afternoon">Between 2:00pm and 5:00pm</option>
+        </select>
+        </label>
+     </fieldset>
+     <label>Comments
+        <textarea name="comments"></textarea>
+     </label>
+     
+     <input type="submit" value="Send Delivery Request">
+      </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Heidi Hassler &bull; Web Essentials</p>
+       </footer>
+   
+   
+       
+   </body>
+   </html>
