@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Heidi Hassler">
+    <meta name="description" content="The Art Vault">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vacay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <title>Wander Wise</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <img id="logo" src="wanderwiselogo.svg" alt="wanderwiselogo">
+        <span>WanderWise</span>
+    </header>
+   
+    <!--start the page navagation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html">Destinations</a></li>
+            <li><a href="vid.html">Videos</a></li>
+            <li><a href="packages.html">Packages</a></li>  
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Contact Us!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+  
+            <fieldset>
+                <legend>Customer Information</legend>
+             <label>First Name*<input type="text" name="fname" required></label>
+             <label>Last Name*<input type="text" name="lname" required></label>
+             <label>Email*<input type="email" name="email" required></label>
+             <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+             <label>Address*<input type="text" name="address" required></label>
+             </fieldset>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+        <label for="topic">Packages:</label>
+        <select id="topic" name="topic" required>
+            <option value="">Select the Package you are Interested in</option>
+            <option value="indonesia">Bali, Indonesia</option>
+            <option value="france">Paris, France</option>
+            <option value="itsly">Florece, Italy</option>
+        </select>
+    </fieldset>
+  
+     <fieldset>
+          <legend>Preferred Contact Method</legend>
+          <label> <input type="radio" name="method" value="email">Email</label>
+          <label> <input type="radio" name="method" value="text">Text</label>
+         <label> <input type="radio" name="method" value="mailbox">Mailbox</label>
+    </fieldset>
+
+       <label>Comments
+          <textarea name="comments"></textarea>
+       </label>
+       
+       <input type="submit" value="Submit your Request">
+        </form>
+        <div class="contact-info">
+            <p>📍 Address: 123 Wander Ave, Travel City, TX 75001</p>
+            <p>📞 Phone: (801)370-255</p>
+            <p>📧 Email: Wander@Wise.com</p>
+        </div>
+    <br>
+    <br>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Heidi Hassler &bull; Web Essentials</p>
+       </footer>
+   
+   
+       
+   </body>
+   </html>
